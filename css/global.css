@@ -61,3 +61,23 @@
   background-color: var(--purple-color);
 }
 
+.button-secondary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-small);
+  padding: var(--space-small) var(--space-normal);
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border-radius: 32px;
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-secondary:hover {
+  color: var(--dark-color);
+  background-color: var(--purple-color);
+}
+
+
